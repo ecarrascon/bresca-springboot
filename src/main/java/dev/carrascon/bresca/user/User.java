@@ -2,6 +2,9 @@ package dev.carrascon.bresca.user;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "users")
 public class User {
@@ -18,8 +21,8 @@ public class User {
     @Column(nullable = false)
     private String email;
 
-    /* TODO: Add the model videos
+    // One user can have many videos
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<Video> videos = new HashSet<>();
-    */
+
 }
