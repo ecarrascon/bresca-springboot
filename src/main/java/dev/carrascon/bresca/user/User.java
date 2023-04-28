@@ -1,5 +1,6 @@
 package dev.carrascon.bresca.user;
 
+import dev.carrascon.bresca.video.Video;
 import jakarta.persistence.*;
 
 import java.util.HashSet;

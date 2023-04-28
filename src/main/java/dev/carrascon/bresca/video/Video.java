@@ -1,5 +1,6 @@
-package dev.carrascon.bresca.user;
+package dev.carrascon.bresca.video;
 
+import dev.carrascon.bresca.user.User;
 import jakarta.persistence.*;
 
 @Entity
